@@ -14,6 +14,9 @@ header{
     z-index: 3;
 
 }
+i{
+    overflow: hidden;
+}
 #check{
     display: none;
 }
@@ -548,7 +551,7 @@ footer {
         display: flex;
         justify-content: end;
         padding-right: 150px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         filter: drop-shadow(2px 2px 20px yellow);
     }
 
@@ -826,13 +829,12 @@ footer {
         text-decoration: underline;
     }
     .footer_section .contact_us ul li {
-        margin: 20px 0;
+        margin: 20px 0px;
         display: flex;
         align-items: center;
-        gap: 10px;
     }
     .footer_section .contact_us ul li i {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
     .footer_section .contact_us ul li span {
         font-size: 17px;
@@ -919,7 +921,7 @@ footer {
 
     .nav-right li a {
         text-decoration: none;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: #fff;
     }
 
